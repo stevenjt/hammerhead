@@ -960,8 +960,9 @@ function vectorUncompress(vString) {
             context.fillStyle = 'yellow';
             context.fillText("HAMMERHEAD.", centerX - 500, centerY);
             context.font = "bold 22px sans-serif";
-            context.fillText("W accelerates, A and D to rotates, mouse move will aim and left click will shoot.", centerX - 500, centerY + 100);
-            context.fillText("Press any key to continue", centerX - 500, centerY + 150);
+            context.fillText("Pressing W will accelerate the ship and the A and D keys will turn the ship.", centerX - 500, centerY + 100);
+            context.fillText("Moving the cursor will aim and pressing left click will shoot.", centerX - 500, centerY + 150);
+            context.fillText("Press any key to continue", centerX - 500, centerY + 200);
             onMenu = true;
 
     }
