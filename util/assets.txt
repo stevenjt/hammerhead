@@ -1,0 +1,4 @@
+player-Top.svg
+player-Side2.svg
+drone.svg
+huge.svg
